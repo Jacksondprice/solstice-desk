@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Student import record",
+  "type": "object",
+  "required": [
+    "student_id",
+    "first_name",
+    "last_name",
+    "date_of_birth",
+    "guardian_email"
+  ],
+  "properties": {
+    "student_id": {
+      "type": "string"
+    },
+    "first_name": {
+      "type": "string"
+    },
+    "last_name": {
+      "type": "string"
+    },
+    "date_of_birth": {
+      "type": "string"
+    },
+    "guardian_email": {
+      "type": "string"
+    },
+    "guardian_phone": {
+      "type": "string"
+    }
+  }
+}
